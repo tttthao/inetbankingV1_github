@@ -1,0 +1,218 @@
+2019-12-04 21:39:05 INFO  ebanking:12 - URL is opend
+2019-12-04 21:39:08 INFO  ebanking:16 - Entered username, password
+2019-12-04 21:39:08 INFO  ebanking:20 - Login test passed
+2019-12-04 21:40:24 INFO  ebanking:12 - URL is opend
+2019-12-04 21:40:27 INFO  ebanking:16 - Entered username, password
+2019-12-04 21:40:27 INFO  ebanking:20 - Login test passed
+2019-12-04 21:42:33 INFO  TC_Login_001:12 - URL is opend
+2019-12-04 21:42:35 INFO  TC_Login_001:16 - Entered username, password
+2019-12-04 21:42:35 INFO  TC_Login_001:20 - Login test passed
+2019-12-04 21:45:46 INFO  TC_Login_001:12 - URL is opend
+2019-12-04 21:45:48 INFO  TC_Login_001:16 - Entered username, password
+2019-12-04 21:45:48 INFO  TC_Login_001:20 - Login test passed
+2019-12-05 11:36:45 INFO  TC_Login_001:12 - URL is opend
+2019-12-05 11:36:47 INFO  TC_Login_001:16 - Entered username, password
+2019-12-05 11:36:47 INFO  TC_Login_001:20 - Login test passed
+2019-12-05 12:00:21 INFO  TC_Login_001:41 - URL is opend
+2019-12-05 12:00:23 INFO  TC_Login_001:13 - Entered username, password
+2019-12-05 12:00:23 INFO  TC_Login_001:17 - Login test passed
+2019-12-05 12:03:24 INFO  TC_Login_001:41 - URL is opend
+2019-12-05 12:08:03 INFO  TC_Login_001:41 - URL is opend
+2019-12-05 12:08:14 INFO  TC_Login_001:13 - Entered username, password
+2019-12-05 12:08:14 INFO  TC_Login_001:17 - Login test passed
+2019-12-05 13:47:10 INFO  TC_Login_001:48 - URL is opend
+2019-12-05 13:48:00 INFO  TC_Login_001:48 - URL is opend
+2019-12-05 14:12:21 INFO  TC_Login_001:50 - URL is opend
+2019-12-05 14:14:17 INFO  TC_Login_001:51 - URL is opend
+2019-12-05 14:17:59 INFO  TC_Login_001:49 - URL is opend
+2019-12-05 14:24:02 INFO  TC_Login_001:52 - URL is opend
+2019-12-05 14:24:13 INFO  TC_Login_001:13 - Entered username, password
+2019-12-05 14:24:13 INFO  TC_Login_001:17 - Login test passed
+2019-12-06 16:36:25 INFO  TC_Login_001:53 - URL is opend
+2019-12-09 11:54:03 INFO  TC_Login_001:53 - URL is opend
+2019-12-09 11:54:05 INFO  TC_Login_001:13 - Entered username, password
+2019-12-09 11:54:05 INFO  TC_Login_001:17 - Login test passed
+2019-12-09 12:15:10 INFO  TC_Login_001:61 - URL is opend
+2019-12-09 12:15:12 INFO  TC_Login_001:15 - Entered username, password
+2019-12-09 12:17:41 INFO  TC_Login_001:61 - URL is opend
+2019-12-09 12:17:42 INFO  TC_Login_001:15 - Entered username, password
+2019-12-09 12:20:09 INFO  TC_Login_001:61 - URL is opend
+2019-12-09 12:20:11 INFO  TC_Login_001:15 - Entered username, password
+2019-12-09 12:23:04 INFO  TC_Login_001:61 - URL is opend
+2019-12-09 12:23:06 INFO  TC_Login_001:15 - Entered username, password
+2019-12-09 12:39:02 INFO  TC_Login_001:61 - URL is opend
+2019-12-09 12:39:04 INFO  TC_Login_001:15 - Entered username, password
+2019-12-09 12:39:05 INFO  TC_Login_001:23 - Login test failed
+2019-12-09 14:22:05 INFO  TC_LoginDDT_002:61 - URL is opend
+2019-12-09 14:24:52 INFO  TC_LoginDDT_002:61 - URL is opend
+2019-12-09 14:27:11 INFO  TC_LoginDDT_002:61 - URL is opend
+2019-12-09 14:30:19 INFO  TC_LoginDDT_002:61 - URL is opend
+2019-12-09 14:33:25 INFO  TC_LoginDDT_002:61 - URL is opend
+2019-12-09 14:38:48 INFO  TC_LoginDDT_002:61 - URL is opend
+2019-12-09 14:44:25 INFO  TC_LoginDDT_002:61 - URL is opend
+2019-12-09 14:46:20 INFO  TC_LoginDDT_002:61 - URL is opend
+2019-12-09 15:04:00 INFO  TC_LoginDDT_002:61 - URL is opend
+2019-12-09 15:04:05 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-09 15:04:08 INFO  TC_LoginDDT_002:32 - Login test passed
+2019-12-09 15:04:09 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-09 15:04:09 WARN  TC_LoginDDT_002:24 - Login test failed
+2019-12-09 15:04:13 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-09 15:04:13 WARN  TC_LoginDDT_002:24 - Login test failed
+2019-12-09 15:04:17 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-09 15:04:19 INFO  TC_LoginDDT_002:32 - Login test passed
+2019-12-09 15:04:20 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-09 15:04:20 WARN  TC_LoginDDT_002:24 - Login test failed
+2019-12-13 15:34:13 INFO  TC_NewCustomer_001:61 - URL is opend
+2019-12-13 15:46:46 INFO  TC_NewCustomer_001:61 - URL is opend
+2019-12-13 15:48:45 INFO  TC_NewCustomer_001:61 - URL is opend
+2019-12-13 15:52:51 INFO  TC_NewCustomer_001:61 - URL is opend
+2019-12-13 16:04:35 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:14:34 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:14:40 INFO  TC_NewCustomer_001:20 - Inputed new customer's information
+2019-12-13 16:14:43 INFO  TC_NewCustomer_001:23 - Clicked submit
+2019-12-13 16:14:43 INFO  TC_NewCustomer_001:27 - TC passed
+2019-12-13 16:16:43 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:16:56 INFO  TC_NewCustomer_001:20 - Inputed new customer's information
+2019-12-13 16:16:57 INFO  TC_NewCustomer_001:23 - Clicked submit
+2019-12-13 16:25:12 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:25:19 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 16:25:19 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 16:28:35 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:28:43 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 16:28:43 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 16:31:35 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:31:42 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 16:31:42 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 16:35:05 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:35:12 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 16:35:12 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 16:37:47 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:37:55 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 16:37:55 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 16:45:02 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:45:10 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 16:45:11 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 16:45:11 WARN  TC_NewCustomer_001:31 - TC failed
+2019-12-13 16:47:44 INFO  TC_Login_001:62 - URL is opend
+2019-12-13 16:47:47 INFO  TC_Login_001:15 - Entered username, password
+2019-12-13 16:47:47 INFO  TC_Login_001:22 - Login test failed
+2019-12-13 16:47:56 INFO  TC_LoginDDT_002:62 - URL is opend
+2019-12-13 16:48:02 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-13 16:48:05 INFO  TC_LoginDDT_002:32 - Login test passed
+2019-12-13 16:48:06 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-13 16:48:06 WARN  TC_LoginDDT_002:24 - Login test failed
+2019-12-13 16:48:09 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-13 16:48:09 WARN  TC_LoginDDT_002:24 - Login test failed
+2019-12-13 16:48:13 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-13 16:48:18 INFO  TC_LoginDDT_002:32 - Login test passed
+2019-12-13 16:48:19 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-13 16:48:19 WARN  TC_LoginDDT_002:24 - Login test failed
+2019-12-13 16:48:28 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 16:48:37 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 16:48:37 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 16:48:37 WARN  TC_NewCustomer_001:31 - TC failed
+2019-12-13 17:28:14 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 17:28:21 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 17:28:21 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 17:28:21 WARN  TC_NewCustomer_001:31 - TC failed
+2019-12-13 17:28:30 INFO  TC_Login_001:62 - URL is opend
+2019-12-13 17:28:32 INFO  TC_Login_001:15 - Entered username, password
+2019-12-13 17:28:32 INFO  TC_Login_001:22 - Login test failed
+2019-12-13 17:28:40 INFO  TC_LoginDDT_002:62 - URL is opend
+2019-12-13 17:28:44 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-13 17:28:44 WARN  TC_LoginDDT_002:24 - Login test failed
+2019-12-13 17:28:46 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-13 17:28:46 WARN  TC_LoginDDT_002:24 - Login test failed
+2019-12-13 17:28:49 INFO  TC_LoginDDT_002:21 - Entered username, password
+2019-12-13 17:28:49 WARN  TC_LoginDDT_002:24 - Login test failed
+2019-12-13 18:10:46 INFO  TC_Login_001:62 - URL is opend
+2019-12-13 18:10:49 INFO  TC_Login_001:15 - Entered username, password
+2019-12-13 18:10:49 INFO  TC_Login_001:22 - Login test failed
+2019-12-13 18:10:58 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 18:11:03 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 18:11:03 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 18:11:03 WARN  TC_NewCustomer_001:31 - TC failed
+2019-12-13 18:18:34 INFO  TC_Login_001:62 - URL is opend
+2019-12-13 18:18:36 INFO  TC_Login_001:15 - Entered username, password
+2019-12-13 18:18:36 INFO  TC_Login_001:18 - Login test passed
+2019-12-13 18:18:44 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 18:18:52 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 18:18:55 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 18:18:55 INFO  TC_NewCustomer_001:29 - TC passed
+2019-12-13 18:20:24 INFO  TC_Login_001:62 - URL is opend
+2019-12-13 18:20:28 INFO  TC_Login_001:15 - Entered username, password
+2019-12-13 18:20:28 INFO  TC_Login_001:18 - Login test passed
+2019-12-13 18:20:36 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-13 18:20:42 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-13 18:20:42 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-13 18:20:42 WARN  TC_NewCustomer_001:31 - TC failed
+2019-12-18 09:35:23 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 09:35:25 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 09:35:25 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 09:35:33 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 09:35:38 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 09:35:38 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 09:35:38 WARN  TC_NewCustomer_001:31 - TC failed
+2019-12-18 10:19:51 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 10:19:53 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 10:19:53 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 10:20:00 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 10:20:05 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 10:20:05 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 10:20:05 WARN  TC_NewCustomer_001:31 - TC failed
+2019-12-18 10:23:31 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 10:23:33 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 10:23:33 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 10:23:40 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 10:23:45 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 10:23:45 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 10:23:45 WARN  TC_NewCustomer_001:31 - TC failed
+2019-12-18 10:26:50 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 10:26:52 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 10:26:52 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 10:27:00 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 10:27:04 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 10:27:06 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 10:27:06 INFO  TC_NewCustomer_001:29 - TC passed
+2019-12-18 10:33:13 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 10:33:15 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 10:33:15 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 10:33:22 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 10:33:27 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 10:33:29 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 10:33:29 INFO  TC_NewCustomer_001:29 - TC passed
+2019-12-18 12:24:52 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 12:24:54 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 12:24:54 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 12:25:01 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 12:25:08 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 12:25:10 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 12:25:10 INFO  TC_NewCustomer_001:29 - TC passed
+2019-12-18 13:53:36 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 13:53:39 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 13:53:39 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 13:53:46 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 13:53:52 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 13:53:55 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 13:53:55 INFO  TC_NewCustomer_001:29 - TC passed
+2019-12-18 13:55:23 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 13:55:24 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 13:55:24 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 13:55:31 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 13:55:36 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 13:55:39 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 13:55:39 INFO  TC_NewCustomer_001:29 - TC passed
+2019-12-18 13:56:32 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 13:56:34 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 13:56:34 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 13:56:41 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 13:56:46 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 13:56:46 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 13:56:46 WARN  TC_NewCustomer_001:31 - TC failed
+2019-12-18 13:58:00 INFO  TC_Login_001:62 - URL is opend
+2019-12-18 13:58:02 INFO  TC_Login_001:15 - Entered username, password
+2019-12-18 13:58:02 INFO  TC_Login_001:18 - Login test passed
+2019-12-18 13:58:09 INFO  TC_NewCustomer_001:62 - URL is opend
+2019-12-18 13:58:14 INFO  TC_NewCustomer_001:22 - Inputed new customer's information
+2019-12-18 13:58:14 INFO  TC_NewCustomer_001:25 - Clicked submit
+2019-12-18 13:58:14 WARN  TC_NewCustomer_001:31 - TC failed

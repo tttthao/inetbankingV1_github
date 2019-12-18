@@ -1,0 +1,104 @@
+Phase-1: Implementation
+- Create Maven Project
+	+ package structure: pageObjects, testCases, testData, utilities.
+	+ folder structure: Drivers, Configuration, Screenshots
+	+ Pom.xml: add dependencies: go to Maven repository: choose the recently most usage: selenium java, testng, extentreports, poi
+
+- Create Page Objects
+	+ create Login page: add webelement and method
+	+ ???get and check xpath on chrome, firefox
+	+ to run test case as TestNG, eclipse need to install TestNG manually: Go to Help - Install New Software: TestNG - http://dl.bintray.com/testng-team/testng-eclipse-release/
+
+- Create Basic Test case
+	+ Setup: driver, browser
+	+ tearDown: quit driver
+- Add logs to test case
+	+ Log4j jar
+	+ Log4j.Properties: File=./logs\\testlog.log
+	+ Name of TC in Logs: Logger.getLogger(this.getClass().getName());
+
+- Read common values from properties file.
+	+ ReadConfig class: new Properties().load(New FileInputStream(New File(...)).getProperty("")
+	+ Call ReadConfig class in BaseClass
+- Run test case on desired browser
+	+ Using parameter annotation: @Parameters("browser") in BaseClass
+	+ Set parameter value in TestNG xml file: <parameter name="browser" value="chrome" />
+- Add extent report
+	+ Add extent report jar in POM file.
+	+ Create  a report class which extend TestListenerAdapter, then override: onStart, onTestSuccess, onTestFailure, onTestSkipped, onFinish
+	+ Call the Listener in TestNG xml file: 
+	<listeners>
+		<listener class-name="com.inetbanking.utilities.Reporting" />
+	</listeners>
+- Create Data Driven test case
+	+ Need jars (same version): poi, poi-ooxml
+	+ Create excel utilities file to work on Excel file: get rowcount, get column count, get cell data, set cell data.
+	+ Test cases using Data provider to get data from excel file into array:
+	@DataProvider(name="name") String [][] getData(){...}
+	+ Call data provider in Test: @Test(dataProvider="name")
+- Adding new test case
+	+ Create new page class to define test object and test method
+	+ Create new test case that extend base class
+	+ Add new test case to testNG xml file
+
+Phase-2: Execution
+- Run test cases with Maven pom.xml
+	+ Add plugin to pom file: maven compiler and maven sure-fire plugin
+	+ remember to change from jre to jdk in installed java
+	+ Add testng xml file into sure-fire plugin
+- Run test cases through Maven CLI(Command Line Interface)
+	+ Install Maven on Window OS
+	+ configure system variables: 
+		M2_HOME: maven folder
+		MAVEN_HOME: maven folder
+		Path: maven bin folder; %M2_HOME%\bin; Java jdk bin folder; Java jdk lib folder
+		JAVA_HOME: jdk folder
+	+ open CLI: cd to project location, then run command: mvn clean install
+- Run test cases using run.bat
+	F:
+	cd F:\SOFTWARE\STUDYS\Eclipse_Workspace\inetBankingV1
+	mvn clean install
+- Run test cases using Jenkins (using bat file)
+	+ continuos intergration: 
+		dev commit codes to report in the end of day, 
+		then devOps will create build, run sanity/smoke testcases on jenkin
+		jenkin will send mail to dev,test when build success or failed
+		when build is success, QA star testing function
+	+ download jenkins: install with admin
+	+ Execute project using free style project (run.bat)[just for learning purpose]
+		New item -> Item name (project name) --> Freestyle project --> Build --> cmd comand
+		Run: 2 place: on darkboard or on Project
+	+ Execute project using Maven (Pom.xml)
+		*Install Maven plugins: Maven Integration, Maven Release Plug-in, Maven Invoker, Maven Repository Scheduled Cleanup, Repository Connector, Maven Infor, Maven repository server
+		*Manage Jenkin -->Global tool configuration --> JDK:add jdk folder --> Maven: Maven 3.6.3
+		*Add JAVA_HOME environment
+		*New Item --> Maven project:
+			Build: Root POM: project location\pom.xml 
+			Goals and options: clean install
+			[Optional]Post-build actions: Editable Email Notification
+		*Jenkin CLI: java -jar jenkins-cli.jar [-s JENKINS_URL] -auth kohsuke:abc1234ffe4a command
+
+Phase-3: Maintenance
+- Creating repository GITHUB
+- Commit the project code in local repository
+- Push the project code to GITHUB remote repository from local GIT repository
+	+ Local repository(git)
+	+ Remote repository (github)
+	+ prerequisites (dk tien quyet):
+	1. install git in your local system
+	2. create a github account: create new repository: https://github.com/tttthao/inetbankingV1_github.git
+	3. Go to project folder: Git bash here: GIT command
+		*git init: create an Empty git repository (Local repository)
+		*git remote add origin "https://github.com/tttthao/inetbankingV1_github.git"
+		*git status: show all tracked files (green color), untracked files (red color)
+		*git add -A: send all untracked file to staging area
+		*clear: clear screen
+		*git config --global user.name "thaothai"
+		*git config --global user.email "thaithao69@gmail.com"
+		*git commit -m "This is my first commit" --> commit all the files to local git repository
+		*git push -u origin master
+|------------------------------------------------------------------------------|
+|working folder			Staging Area		Git repository		GIT Hub		   |
+|[Untracked file]------>[Tracked file]------>[committed file]--->[Remote file] |
+|				  Add				  Commit				Push			   |
+|------------------------------------------------------------------------------|
